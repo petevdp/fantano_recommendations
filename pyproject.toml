@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fantano_recommendations"
+version = "0.1.0"
+description = "turn fantano's recommendations into playlists"
+authors = ["petevdp <pjvanderpol@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+google-api-python-client = "^1.10.0"
+google-auth-oauthlib = "^0.4.1"
+google-auth-httplib2 = "^0.0.4"
+python-dotenv = "^0.14.0"
+spotipy = "^2.13.0"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.17.0"
+pylint = "^2.5.3"
+rope = "^0.17.0"
+yapf = "^0.30.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
